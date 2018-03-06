@@ -17,3 +17,21 @@ header {
   background-position: center;
   background-attachment: fixed;
 }
+
+.banner-center {
+  padding: 50px 100px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.banner-underline {
+  width: 300px;
+  height: 3px;
+  background: #f15025;
+}
+
+.explore {
+  width: 300px;
+  font-size: 30px;
+  border-radius: 0;
+  border-width: 3px;
+}
