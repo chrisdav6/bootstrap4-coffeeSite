@@ -52,7 +52,7 @@ header {
   background: #f15025;
 }
 
-.title p {
+.skills-text {
   font-size: 1.5em;
 }
 
@@ -66,6 +66,27 @@ header {
   border: 0;
 }
 
-
-
 //End of Skills
+
+
+
+//About Section
+
+#about {
+  background: #2d3142;
+}
+
+.about-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25em;
+}
+
+.pic {
+  height: 600px;
+  background: url(../img/about.jpg) no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  border-bottom: 600px solid transparent;
+  border-left: 100px solid #2d3142;
+}

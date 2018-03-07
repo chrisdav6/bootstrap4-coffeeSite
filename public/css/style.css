@@ -29,7 +29,7 @@ header {
   height: 3px;
   background: #f15025; }
 
-.title p {
+.skills-text {
   font-size: 1.5em; }
 
 .skills-body {
@@ -39,3 +39,19 @@ header {
   background: #f15025;
   width: 200px;
   border: 0; }
+
+#about {
+  background: #2d3142; }
+
+.about-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25em; }
+
+.pic {
+  height: 600px;
+  background: url(../img/about.jpg) no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  border-bottom: 600px solid transparent;
+  border-left: 100px solid #2d3142; }
