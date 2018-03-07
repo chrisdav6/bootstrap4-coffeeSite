@@ -1,5 +1,6 @@
-// font-family: 'Barlow Condensed', sans-serif;
-// font-family: 'Indie Flower', cursive;
+//font-family: 'Barlow Condensed', sans-serif;
+//font-family: 'Lobster', cursive;
+//font-family: 'Roboto', sans-serif;
 
 // orange: #f15025
 // black: #353531
@@ -9,6 +10,8 @@
 body {
   font-family: 'Lobster', cursive;
 }
+
+//Banner Section
 
 header {
   height: 100vh;
@@ -35,3 +38,34 @@ header {
   border-radius: 0;
   border-width: 3px;
 }
+
+//End of Banner
+
+
+
+//Skills Section
+
+.text-underline {
+  margin: 0 auto;
+  width: 100px;
+  height: 3px;
+  background: #f15025;
+}
+
+.title p {
+  font-size: 1.5em;
+}
+
+.skills-body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.skills-btn {
+  background: #f15025;
+  width: 200px;
+  border: 0;
+}
+
+
+
+//End of Skills

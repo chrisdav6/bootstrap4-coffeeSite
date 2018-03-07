@@ -22,3 +22,20 @@ header {
   font-size: 30px;
   border-radius: 0;
   border-width: 3px; }
+
+.text-underline {
+  margin: 0 auto;
+  width: 100px;
+  height: 3px;
+  background: #f15025; }
+
+.title p {
+  font-size: 1.5em; }
+
+.skills-body {
+  font-family: 'Roboto', sans-serif; }
+
+.skills-btn {
+  background: #f15025;
+  width: 200px;
+  border: 0; }
