@@ -40,9 +40,6 @@ header {
   width: 200px;
   border: 0; }
 
-#about {
-  background: #2d3142; }
-
 .about-text {
   font-family: 'Roboto', sans-serif;
   font-size: 1.25em; }
@@ -54,7 +51,7 @@ header {
   background-position: center;
   background-size: cover;
   border-bottom: 600px solid transparent;
-  border-left: 100px solid #2d3142; }
+  border-left: 100px solid #343A40; }
 
 form {
   font-family: 'Roboto', sans-serif; }
@@ -62,3 +59,37 @@ form {
 .form-btn {
   background: #f15025;
   border: 0; }
+
+.footer-text {
+  font-size: 1.25em;
+  font-family: 'Roboto', sans-serif; }
+
+.facebook, .twitter, .instagram, .google, .linked {
+  color: white;
+  position: relative;
+  top: 0;
+  transition: .3s; }
+
+.facebook:hover {
+  color: #3b5998;
+  top: -5px; }
+
+.twitter:hover {
+  color: #1DA1F2;
+  top: -5px; }
+
+.instagram:hover {
+  color: #262626;
+  top: -5px; }
+
+.google:hover {
+  color: #d62d20;
+  top: -5px; }
+
+.linked:hover {
+  color: #0077B5;
+  top: -5px; }
+
+.copy-text {
+  font-size: .8em;
+  font-family: 'Roboto', sans-serif; }
