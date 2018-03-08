@@ -1,6 +1,16 @@
 body {
   font-family: 'Lobster', cursive; }
 
+.navbar.fixed-top {
+  background: rgba(0, 0, 0, 0.5); }
+
+.navbar .navbar-brand {
+  color: #f15025;
+  transition: .3s; }
+
+.navbar .navbar-brand:hover {
+  color: #ea9079; }
+
 header {
   height: 100vh;
   background: url(../img/header.jpg) no-repeat;

@@ -11,6 +11,25 @@ body {
   font-family: 'Lobster', cursive;
 }
 
+//Navbar
+
+.navbar.fixed-top {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.navbar .navbar-brand {
+  color: #f15025;
+  transition: .3s;
+}
+
+.navbar .navbar-brand:hover {
+  color: #ea9079;
+}
+
+//End Navbar
+
+
+
 //Banner Section
 
 header {
