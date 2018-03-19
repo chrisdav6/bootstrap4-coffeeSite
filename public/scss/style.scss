@@ -42,7 +42,10 @@ header {
 
 .banner-center {
   padding: 50px 100px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.85);
+  opacity: 0; //For animation
+  position: relative; //For animation
+  top: -200px;
 }
 
 .banner-underline {
@@ -63,6 +66,10 @@ header {
 
 
 //Skills Section
+
+#skills {
+  padding: 150px 0;
+}
 
 .text-underline {
   margin: 0 auto;
@@ -112,6 +119,10 @@ header {
 
 
 //Contact Section
+
+#contact {
+  padding: 150px 0;
+}
 
 form {
   font-family: 'Roboto', sans-serif;
