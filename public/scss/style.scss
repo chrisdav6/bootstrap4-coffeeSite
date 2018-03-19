@@ -9,6 +9,7 @@
 
 body {
   font-family: 'Lobster', cursive;
+  background: black;
 }
 
 //Navbar
@@ -35,9 +36,11 @@ body {
 header {
   height: 100vh;
   background: url(../img/header.jpg) no-repeat;
+  background-color: black;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  opacity: 0; //For Animation
 }
 
 .banner-center {
@@ -69,6 +72,7 @@ header {
 
 #skills {
   padding: 150px 0;
+  background: white;
 }
 
 .text-underline {
@@ -122,6 +126,7 @@ header {
 
 #contact {
   padding: 150px 0;
+  background: white;
 }
 
 form {

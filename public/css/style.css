@@ -1,5 +1,6 @@
 body {
-  font-family: 'Lobster', cursive; }
+  font-family: 'Lobster', cursive;
+  background: black; }
 
 .navbar.fixed-top {
   background: rgba(0, 0, 0, 0.5); }
@@ -14,9 +15,11 @@ body {
 header {
   height: 100vh;
   background: url(../img/header.jpg) no-repeat;
+  background-color: black;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  opacity: 0; }
 
 .banner-center {
   padding: 50px 100px;
@@ -37,7 +40,8 @@ header {
   border-width: 3px; }
 
 #skills {
-  padding: 150px 0; }
+  padding: 150px 0;
+  background: white; }
 
 .text-underline {
   margin: 0 auto;
@@ -70,7 +74,8 @@ header {
   border-left: 100px solid #343A40; }
 
 #contact {
-  padding: 150px 0; }
+  padding: 150px 0;
+  background: white; }
 
 form {
   font-family: 'Roboto', sans-serif; }
